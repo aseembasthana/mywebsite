@@ -1,0 +1,159 @@
+.experience-tab {
+  padding: 120px 20px 120px;
+  max-width: 1000px;
+}
+
+.experience-content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 50px;
+  position: relative;
+}
+
+.companies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-right: 1px solid var(--border);
+  padding-right: 20px;
+}
+
+.company-button {
+  background: none;
+  border: none;
+  border-left: 2px solid var(--border);
+  color: var(--text-secondary);
+  text-align: left;
+  padding: 12px 20px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition);
+  border-radius: 0;
+}
+
+.company-button:hover {
+  background: rgba(100, 255, 218, 0.05);
+  color: var(--accent);
+  border-left-color: var(--accent);
+}
+
+.company-button.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  background: rgba(100, 255, 218, 0.05);
+}
+
+.experience-details {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.company {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.company a {
+  color: var(--accent);
+  transition: var(--transition);
+}
+
+.company a:hover {
+  text-decoration: underline;
+}
+
+.duration {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.description-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.description-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.description-list li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 16px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.tech-tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: rgba(100, 255, 218, 0.08);
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  padding: 4px 10px;
+  border-radius: 3px;
+  transition: var(--transition);
+}
+
+.tech-tag:hover {
+  background: rgba(100, 255, 218, 0.12);
+  border-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .experience-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .companies-list {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
+  
+  .company-button {
+    border-left: none;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+  }
+  
+  .company-button.active {
+    border-left: none;
+    border-bottom-color: var(--accent);
+  }
+  
+  .role {
+    font-size: 18px;
+  }
+}

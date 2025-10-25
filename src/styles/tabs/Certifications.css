@@ -1,0 +1,76 @@
+.certifications-tab {
+  padding: 120px 20px 120px;
+  max-width: 1000px;
+}
+
+.certifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.certification-card {
+  background: var(--background-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 28px;
+  transition: var(--transition);
+}
+
+.certification-card:hover {
+  transform: translateX(4px);
+  border-color: var(--accent);
+}
+
+.cert-header {
+  margin-bottom: 12px;
+}
+
+.cert-header h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.institution {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cert-date {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.cert-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.skill-badge {
+  font-size: 13px;
+  color: var(--text-secondary);
+  background: rgba(100, 255, 218, 0.1);
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.cert-link {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+}
+
+.cert-link:hover {
+  transform: translateX(4px);
+}

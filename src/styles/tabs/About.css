@@ -1,0 +1,98 @@
+.about-tab {
+  min-height: calc(100vh - 70px);
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.hero-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.greeting {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.title {
+  font-size: clamp(40px, 8vw, 80px);
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.description {
+  max-width: 540px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 100px auto 0;
+  padding: 0 20px;
+}
+
+.about-text {
+  max-width: 650px;
+}
+
+.about-text p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0 20px;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.skills-list li {
+  position: relative;
+  padding-left: 20px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.skills-list li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .about-tab {
+    padding-top: 70px;
+  }
+  
+  .hero-section,
+  .about-content {
+    padding: 0 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+  
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+}

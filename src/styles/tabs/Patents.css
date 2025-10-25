@@ -1,0 +1,122 @@
+.patents-tab {
+  padding: 120px 20px 120px;
+  max-width: 1200px;
+}
+
+.patents-note {
+  background: rgba(100, 255, 218, 0.1);
+  border-left: 3px solid var(--accent);
+  padding: 16px 20px;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.patents-note strong {
+  color: var(--accent);
+}
+
+.patents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.patent-card {
+  background: var(--background-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 28px;
+  transition: var(--transition);
+}
+
+.patent-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 30px rgba(100, 255, 218, 0.1);
+}
+
+.patent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.patent-header h3 {
+  font-size: 18px;
+  margin: 0;
+  flex: 1;
+}
+
+.status {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-granted {
+  background: rgba(100, 255, 218, 0.15);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.status-pending {
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.patent-info {
+  margin-bottom: 16px;
+}
+
+.patent-info p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+}
+
+.patent-number,
+.filing-date {
+  color: var(--text-secondary);
+}
+
+.patent-description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.patent-link {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+}
+
+.patent-link:hover {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .patents-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .patent-card {
+    padding: 20px;
+  }
+  
+  .patent-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
