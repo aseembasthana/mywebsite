@@ -71,6 +71,62 @@
 }
 
 @media (max-width: 768px) {
+  .publications-tab {
+    padding: 80px 16px 80px;
+  }
+
+  .publication-card {
+    padding: 20px;
+  }
+
+  .publication-card h3 {
+    font-size: 18px;
+  }
+
+  .publication-authors,
+  .publication-venue {
+    font-size: 13px;
+  }
+
+  .publication-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .publications-tab {
+    padding: 60px 12px 60px;
+  }
+
+  .publications-list {
+    gap: 20px;
+  }
+
+  .publication-card {
+    padding: 16px;
+  }
+
+  .publication-card h3 {
+    font-size: 16px;
+  }
+
+  .publication-authors,
+  .publication-venue,
+  .publication-date {
+    font-size: 12px;
+  }
+
+  .publication-description {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+
+  .publication-link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
   .publication-card {
     padding: 24px;
   }

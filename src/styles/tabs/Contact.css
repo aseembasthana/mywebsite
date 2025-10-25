@@ -86,15 +86,95 @@
 
 @media (max-width: 768px) {
   .contact-tab {
-    padding: 100px 20px 60px;
+    padding: 80px 16px 80px;
   }
   
   .contact-intro {
     font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .btn-primary {
+    padding: 10px 24px;
+    font-size: 13px;
+  }
+
+  .contact-info {
+    padding-top: 40px;
+  }
+
+  .contact-link {
+    font-size: 14px;
   }
   
   .contact-links {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-tab {
+    padding: 60px 12px 60px;
+  }
+
+  .contact-intro {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .contact-form {
+    margin-bottom: 40px;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .form-group textarea {
+    min-height: 100px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+
+  .contact-info {
+    padding-top: 32px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .contact-links {
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
+  }
+
+  .contact-link {
+    font-size: 13px;
   }
 }

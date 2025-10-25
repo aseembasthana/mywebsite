@@ -23,6 +23,84 @@
   gap: 24px;
 }
 
+@media (max-width: 768px) {
+  .patents-tab {
+    padding: 80px 16px 80px;
+  }
+
+  .patents-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .patent-card {
+    padding: 20px;
+  }
+
+  .patent-card h3 {
+    font-size: 18px;
+  }
+
+  .patent-number,
+  .filing-date {
+    font-size: 13px;
+  }
+
+  .patent-description {
+    font-size: 14px;
+  }
+
+  .patents-note {
+    font-size: 14px;
+    padding: 14px 16px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .patents-tab {
+    padding: 60px 12px 60px;
+  }
+
+  .patent-card {
+    padding: 16px;
+  }
+
+  .patent-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .status {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .patent-info {
+    gap: 8px;
+  }
+
+  .patent-number,
+  .filing-date {
+    font-size: 12px;
+  }
+
+  .patent-description {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+
+  .patent-link {
+    font-size: 12px;
+  }
+
+  .patents-note {
+    font-size: 13px;
+    padding: 12px 14px;
+    margin-top: 24px;
+  }
+}
+
 .patent-card {
   background: var(--background-light);
   border: 1px solid var(--border);

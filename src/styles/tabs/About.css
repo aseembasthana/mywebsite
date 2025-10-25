@@ -80,19 +80,73 @@
 
 @media (max-width: 768px) {
   .about-tab {
-    padding-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
   
   .hero-section,
   .about-content {
-    padding: 0 20px;
+    padding: 0 16px;
+  }
+
+  .about-content {
+    margin-top: 60px;
   }
   
   .description {
     font-size: 16px;
+    max-width: 100%;
   }
   
   .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 12px;
+  }
+
+  .skills-list li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-tab {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .hero-section,
+  .about-content {
+    padding: 0 12px;
+  }
+
+  .greeting {
+    font-size: 14px;
+  }
+
+  .name,
+  .title {
+    font-size: clamp(28px, 10vw, 40px);
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .about-content {
+    margin-top: 40px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .skills-list {
     grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .skills-list li {
+    font-size: 12px;
   }
 }

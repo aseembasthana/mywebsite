@@ -74,3 +74,67 @@
 .cert-link:hover {
   transform: translateX(4px);
 }
+
+@media (max-width: 768px) {
+  .certifications-tab {
+    padding: 80px 16px 80px;
+  }
+
+  .certification-card {
+    padding: 20px;
+  }
+
+  .cert-title {
+    font-size: 18px;
+  }
+
+  .cert-institution,
+  .cert-date {
+    font-size: 13px;
+  }
+
+  .cert-skills {
+    gap: 6px;
+  }
+
+  .skill-tag {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .certifications-tab {
+    padding: 60px 12px 60px;
+  }
+
+  .certifications-list {
+    gap: 20px;
+  }
+
+  .certification-card {
+    padding: 16px;
+  }
+
+  .cert-title {
+    font-size: 16px;
+  }
+
+  .cert-institution,
+  .cert-date {
+    font-size: 12px;
+  }
+
+  .cert-skills {
+    gap: 4px;
+  }
+
+  .skill-tag {
+    font-size: 10px;
+    padding: 3px 7px;
+  }
+
+  .cert-link {
+    font-size: 12px;
+  }
+}
