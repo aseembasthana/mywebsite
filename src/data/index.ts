@@ -402,30 +402,37 @@ export const publications: Publication[] = [
 export const projects: Project[] = [
   {
     id: 1,
+    name: "Internals of Large Language Models - Graduate Lecture Series",
+    description: "Comprehensive lecture series on the internals of Large Language Models (LLMs) designed for graduate students. Covers architecture, training methodologies, fine-tuning strategies, prompt engineering, and deployment techniques. Request access to view lecture materials and recordings.",
+    technologies: ["LLMs", "Generative AI", "Deep Learning", "Transformers", "Education"],
+    liveLink: "https://drive.google.com/drive/folders/1Dmgkjmnlexa7H8IX4LKkDH_fY-5iKP7k"
+  },
+  {
+    id: 2,
     name: "Control Hub AI (CHAI)",
     description: "Architected and led implementation of Control Hub AI with Generative AI capabilities, RAG infrastructure, and Agent & Tools framework including Configuration Assistant and Troubleshooting Assistant.",
     technologies: ["AI/ML", "Generative AI", "RAG", "Python", "Java", "Microservices"]
   },
   {
-    id: 2,
+    id: 3,
     name: "EMPATH - Real-time Sentiment Analysis",
     description: "AI/ML-based real-time sentiment analysis system integrated with Webex Contact Center, featuring voice transcription and ML models for sentiment detection.",
     technologies: ["AI/ML", "Python", "Voice Transcription", "Real-time Analytics", "Voicea Integration"]
   },
   {
-    id: 3,
+    id: 4,
     name: "Webex Lead Generation Framework",
     description: "Complete lead generation framework driving direct sales with integration apps, enrichment service, lead routing, and conversion analytics. Contributed $6.75M revenue.",
     technologies: ["Node.js", "Microservices", "GCP Cloud Composer", "Salesforce Integration", "Data Pipelines"]
   },
   {
-    id: 4,
+    id: 5,
     name: "Data Platform & Pipeline Framework",
     description: "Scalable data platform and pipeline framework supporting 40+ data pipelines on GCP Cloud Composer with Apache Spark-based analytics and reporting.",
     technologies: ["Apache Spark", "GCP Cloud Composer", "Luigi Framework", "Big Data", "Python"]
   },
   {
-    id: 5,
+    id: 6,
     name: "Cloud-based Call Control Platform",
     description: "Next-generation RESTful cloud-based call control and media services for enterprise applications with SIP session border control and B2B interoperability.",
     technologies: ["SIP", "Java", "Cloud Services", "RESTful Web Services", "Microservices"]

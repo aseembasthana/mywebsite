@@ -44,9 +44,9 @@ const Projects: React.FC = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="project-link"
-                    aria-label="Live Demo"
+                    aria-label={project.id === 1 ? "Request Access" : "Live Demo"}
                   >
-                    Live Demo ↗
+                    {project.id === 1 ? "Request Access ↗" : "Live Demo ↗"}
                   </a>
                 )}
               </div>
