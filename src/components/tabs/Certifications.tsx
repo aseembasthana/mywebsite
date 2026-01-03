@@ -10,28 +10,6 @@ const Certifications: React.FC = () => {
         Certifications
       </h2>
       
-      <div className="cert-profiles">
-        <p>View my learning profiles:</p>
-        <div className="profile-links">
-          <a 
-            href="https://www.coursera.org/user/aseembasthana" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="profile-link"
-          >
-            Coursera Profile ↗
-          </a>
-          <a 
-            href="https://learn.deeplearning.ai/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="profile-link"
-          >
-            DeepLearning.AI Profile ↗
-          </a>
-        </div>
-      </div>
-      
       <div className="certifications-list">
         {certifications.map((cert) => (
           <div key={cert.id} className="certification-card">
