@@ -5,9 +5,10 @@ const About: React.FC = () => {
   const technologies = [
     'Java',
     'Python',
-    'Node.js',
     'Machine Learning',
     'Generative AI',
+    'LangChain Frameworks',
+    'CrewAI',
     'Computer Vision',
     'Real-time Communication',
     'Call Control',
