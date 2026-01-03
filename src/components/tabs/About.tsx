@@ -48,7 +48,7 @@ const About: React.FC = () => {
           <p>
             Currently, I lead the architecture and implementation of Control Hub AI, designing
             AI/ML solutions including Generative AI capabilities and the EMPATH real-time sentiment
-            analysis system. I've secured 25 patents, authored four publications, and contributed
+            analysis system. I've secured 25 patents, authored 6 publications, and contributed
             significantly to revenue generation and customer acquisition at Cisco.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
