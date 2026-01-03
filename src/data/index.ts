@@ -265,80 +265,70 @@ export const certifications: Certification[] = [
     name: "Deep Learning Specialization",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed 2017-2018",
-    skills: ["Deep Learning", "Neural Networks", "CNN", "RNN", "TensorFlow", "PyTorch"],
-    link: "https://www.coursera.org/specializations/deep-learning"
+    skills: ["Deep Learning", "Neural Networks", "CNN", "RNN", "TensorFlow", "PyTorch"]
   },
   {
     id: 2,
     name: "Generative AI with Large Language Models",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed 2023",
-    skills: ["Generative AI", "LLMs", "Transformers", "Prompt Engineering", "Fine-tuning"],
-    link: "https://www.coursera.org/learn/generative-ai-with-llms"
+    skills: ["Generative AI", "LLMs", "Transformers", "Prompt Engineering", "Fine-tuning"]
   },
   {
     id: 3,
     name: "Machine Learning Specialization",
     institution: "Stanford University via Coursera",
     date: "Completed 2016-2017",
-    skills: ["Machine Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"],
-    link: "https://www.coursera.org/specializations/machine-learning-introduction"
+    skills: ["Machine Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"]
   },
   {
     id: 4,
     name: "Artificial Intelligence Nanodegree",
     institution: "Udacity",
     date: "Completed 2017-2018",
-    skills: ["AI", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"],
-    link: "https://www.udacity.com/course/ai-artificial-intelligence-nanodegree--nd898"
+    skills: ["AI", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"]
   },
   {
     id: 5,
     name: "Machine Learning With Big Data",
     institution: "University of California San Diego via Coursera",
     date: "Completed",
-    skills: ["Big Data", "Machine Learning", "Data Analytics", "Spark", "Hadoop"],
-    link: "https://www.coursera.org/learn/big-data-machine-learning"
+    skills: ["Big Data", "Machine Learning", "Data Analytics", "Spark", "Hadoop"]
   },
   {
     id: 6,
     name: "Building Generative AI-Powered Applications",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed",
-    skills: ["Generative AI", "LLM Applications", "API Integration", "RAG", "Vector Databases"],
-    link: "https://www.coursera.org/learn/generative-ai-powered-applications"
+    skills: ["Generative AI", "LLM Applications", "API Integration", "RAG", "Vector Databases"]
   },
   {
     id: 7,
     name: "Prompt Engineering and Advanced RAG",
     institution: "DeepLearning.AI",
     date: "Completed",
-    skills: ["Prompt Engineering", "Advanced RAG", "LangChain", "Vector Embeddings", "LangGraph"],
-    link: "https://www.deeplearning.ai/courses/advanced-rag/"
+    skills: ["Prompt Engineering", "Advanced RAG", "LangChain", "Vector Embeddings", "LangGraph"]
   },
   {
     id: 8,
     name: "Understanding and Applying Text Embeddings",
     institution: "DeepLearning.AI",
     date: "Completed",
-    skills: ["Text Embeddings", "Vector Similarity", "Semantic Search", "CLIP", "Sentence Transformers"],
-    link: "https://www.deeplearning.ai/courses/text-embeddings/"
+    skills: ["Text Embeddings", "Vector Similarity", "Semantic Search", "CLIP", "Sentence Transformers"]
   },
   {
     id: 9,
     name: "Finetuning Large Language Models",
     institution: "DeepLearning.AI",
     date: "Completed",
-    skills: ["LLM Finetuning", "LoRA", "QLoRA", "Parameter-Efficient Training", "Instruction Tuning"],
-    link: "https://www.deeplearning.ai/courses/finetuning-large-language-models/"
+    skills: ["LLM Finetuning", "LoRA", "QLoRA", "Parameter-Efficient Training", "Instruction Tuning"]
   },
   {
     id: 10,
     name: "LangChain for LLM Application Development",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed",
-    skills: ["LangChain", "LLM Applications", "Chains", "Agents", "Memory"],
-    link: "https://www.coursera.org/learn/langchain"
+    skills: ["LangChain", "LLM Applications", "Chains", "Agents", "Memory"]
   }
 ];
 

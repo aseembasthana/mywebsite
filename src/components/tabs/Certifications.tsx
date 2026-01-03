@@ -10,19 +10,41 @@ const Certifications: React.FC = () => {
         Certifications
       </h2>
       
+      <div className="cert-profiles">
+        <p>View my learning profiles:</p>
+        <div className="profile-links">
+          <a 
+            href="https://www.coursera.org/user/aseembasthana" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="profile-link"
+          >
+            Coursera Profile ↗
+          </a>
+          <a 
+            href="https://learn.deeplearning.ai/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="profile-link"
+          >
+            DeepLearning.AI Profile ↗
+          </a>
+        </div>
+      </div>
+      
       <div className="certifications-list">
         {certifications.map((cert) => (
           <div key={cert.id} className="certification-card">
             <div className="cert-header">
-              <h3>{cert.name}</h3>
-              <p className="institution">{cert.institution}</p>
+              <h3 className="cert-title">{cert.name}</h3>
+              <p className="cert-institution">{cert.institution}</p>
             </div>
             
             <p className="cert-date">{cert.date}</p>
             
             <div className="cert-skills">
               {cert.skills.map((skill, index) => (
-                <span key={index} className="skill-badge">{skill}</span>
+                <span key={index} className="skill-tag">{skill}</span>
               ))}
             </div>
             
