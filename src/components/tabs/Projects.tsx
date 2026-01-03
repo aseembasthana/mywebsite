@@ -25,30 +25,32 @@ const Projects: React.FC = () => {
               ))}
             </div>
             
-            <div className="project-links">
-              {project.githubLink && (
-                <a 
-                  href={project.githubLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="project-link"
-                  aria-label="GitHub"
-                >
-                  GitHub ↗
-                </a>
-              )}
-              {project.liveLink && (
-                <a 
-                  href={project.liveLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="project-link"
-                  aria-label="Live Demo"
-                >
-                  Live Demo ↗
-                </a>
-              )}
-            </div>
+            {(project.githubLink || project.liveLink) && (
+              <div className="project-links">
+                {project.githubLink && (
+                  <a 
+                    href={project.githubLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="project-link"
+                    aria-label="GitHub"
+                  >
+                    GitHub ↗
+                  </a>
+                )}
+                {project.liveLink && (
+                  <a 
+                    href={project.liveLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="project-link"
+                    aria-label="Live Demo"
+                  >
+                    Live Demo ↗
+                  </a>
+                )}
+              </div>
+            )}
           </div>
         ))}
       </div>

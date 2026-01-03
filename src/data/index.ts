@@ -404,35 +404,30 @@ export const projects: Project[] = [
     id: 1,
     name: "Control Hub AI (CHAI)",
     description: "Architected and led implementation of Control Hub AI with Generative AI capabilities, RAG infrastructure, and Agent & Tools framework including Configuration Assistant and Troubleshooting Assistant.",
-    technologies: ["AI/ML", "Generative AI", "RAG", "Python", "Java", "Microservices"],
-    liveLink: "https://admin.webex.com"
+    technologies: ["AI/ML", "Generative AI", "RAG", "Python", "Java", "Microservices"]
   },
   {
     id: 2,
     name: "EMPATH - Real-time Sentiment Analysis",
     description: "AI/ML-based real-time sentiment analysis system integrated with Webex Contact Center, featuring voice transcription and ML models for sentiment detection.",
-    technologies: ["AI/ML", "Python", "Voice Transcription", "Real-time Analytics", "Voicea Integration"],
-    liveLink: "https://www.webex.com/products/contact-center.html"
+    technologies: ["AI/ML", "Python", "Voice Transcription", "Real-time Analytics", "Voicea Integration"]
   },
   {
     id: 3,
     name: "Webex Lead Generation Framework",
     description: "Complete lead generation framework driving direct sales with integration apps, enrichment service, lead routing, and conversion analytics. Contributed $6.75M revenue.",
-    technologies: ["Node.js", "Microservices", "GCP Cloud Composer", "Salesforce Integration", "Data Pipelines"],
-    liveLink: "https://www.webex.com/contact-sales.html"
+    technologies: ["Node.js", "Microservices", "GCP Cloud Composer", "Salesforce Integration", "Data Pipelines"]
   },
   {
     id: 4,
     name: "Data Platform & Pipeline Framework",
     description: "Scalable data platform and pipeline framework supporting 40+ data pipelines on GCP Cloud Composer with Apache Spark-based analytics and reporting.",
-    technologies: ["Apache Spark", "GCP Cloud Composer", "Luigi Framework", "Big Data", "Python"],
-    liveLink: "https://www.webex.com"
+    technologies: ["Apache Spark", "GCP Cloud Composer", "Luigi Framework", "Big Data", "Python"]
   },
   {
     id: 5,
     name: "Cloud-based Call Control Platform",
     description: "Next-generation RESTful cloud-based call control and media services for enterprise applications with SIP session border control and B2B interoperability.",
-    technologies: ["SIP", "Java", "Cloud Services", "RESTful Web Services", "Microservices"],
-    liveLink: "https://www.webex.com"
+    technologies: ["SIP", "Java", "Cloud Services", "RESTful Web Services", "Microservices"]
   }
 ];
