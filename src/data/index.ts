@@ -336,6 +336,13 @@ export const certifications: Certification[] = [
     institution: "Arize AI via DeepLearning.AI",
     date: "Completed January 2026",
     skills: ["Agents", "Evaluation and Monitoring", "GenAI Applications", "LLMOps", "MLOps", "Prompt Engineering", "Task Automation"]
+  },
+  {
+    id: 12,
+    name: "MCP: Build Rich-Context AI Apps with Anthropic",
+    institution: "Anthropic via DeepLearning.AI",
+    date: "Completed October 2025",
+    skills: ["AI Coding", "AI Frameworks", "Agents", "Chatbots", "GenAI Applications", "LLMOps", "Prompt Engineering", "Task Automation"]
   }
 ];
 
