@@ -329,6 +329,13 @@ export const certifications: Certification[] = [
     institution: "DeepLearning.AI via Coursera",
     date: "Completed",
     skills: ["LangChain", "LLM Applications", "Chains", "Agents", "Memory"]
+  },
+  {
+    id: 11,
+    name: "Evaluating AI Agents",
+    institution: "Arize AI via DeepLearning.AI",
+    date: "Completed January 2026",
+    skills: ["Agents", "Evaluation and Monitoring", "GenAI Applications", "LLMOps", "MLOps", "Prompt Engineering", "Task Automation"]
   }
 ];
 
