@@ -34,228 +34,165 @@ export const experiences: Experience[] = [
 export const patents: Patent[] = [
   {
     id: 1,
-    title: "Versatile Conference Adapter",
-    patentNumber: "US 8,405,705 B2",
-    filingDate: "March 26, 2013",
-    status: "Granted",
-    description: "Innovative adapter system for enhancing conference capabilities and interoperability across different platforms.",
-    link: "https://patents.google.com/patent/US8405705B2"
+    title: "Communication routing for contact center",
+    patentNumber: "US 2025/0106322 A1",
+    filingDate: "September 25, 2023",
+    status: "Pending",
+    description: "Method for routing incoming communications based on attitudinal negativity score of agents and user ease score to improve call routing and agent wellbeing in contact centers.",
+    link: "https://patents.google.com/patent/US20250106322A1"
   },
   {
     id: 2,
-    title: "Controlling Actions in a Conference Based on Triggers",
-    patentNumber: "US 7,886,001 B2",
-    filingDate: "February 8, 2011",
+    title: "Versatile conference adapter and method employing same",
+    patentNumber: "US 8,405,705 B2",
+    filingDate: "July 11, 2011",
     status: "Granted",
-    description: "Intelligent trigger-based conference control system enabling automated actions and enhanced collaboration.",
-    link: "https://patents.google.com/patent/US7886001B2"
+    description: "Innovative adapter system for interfacing disparate conference systems and endpoints, enabling enhanced conference capabilities and interoperability across different platforms.",
+    link: "https://patents.google.com/patent/US8405705B2"
   },
   {
     id: 3,
-    title: "Conference Captioning",
-    patentNumber: "US 7,830,408 B2",
-    filingDate: "April 20, 2010",
-    status: "Granted",
-    description: "Advanced captioning system for real-time conference accessibility and enhanced user experience.",
-    link: "https://patents.google.com/patent/US7830408B2"
+    title: "Conference resource allocation and dynamic reallocation",
+    patentNumber: "WO 2008/020928 A3",
+    filingDate: "July 6, 2007",
+    status: "Published",
+    description: "System and method for dynamically allocating and reallocating conference resources across different sessions and participants.",
+    link: "https://patents.google.com/patent/WO2008020928A3"
   },
   {
     id: 4,
-    title: "Message Prioritization in Collaboration Workspaces Using Virtual Tokens",
-    patentNumber: "US 9,432,345 B2",
-    filingDate: "August 2016",
-    status: "Granted",
-    description: "System and method for prioritizing messages in collaboration workspaces through virtual tokens for efficient communication flow.",
-    link: "https://patents.google.com/patent/US9432345B2"
+    title: "Network resource optimization in a video conference",
+    patentNumber: "WO 2007/126652 A3",
+    filingDate: "March 20, 2007",
+    status: "Published",
+    description: "Optimization of network resources for video conferences with intelligent mixer and server allocation.",
+    link: "https://patents.google.com/patent/WO2007126652A3"
   },
   {
     id: 5,
-    title: "Smart Notifications for Collaboration Workspaces",
-    patentNumber: "US 10,123,456 B2",
-    filingDate: "November 2018",
-    status: "Granted",
-    description: "Intelligent notification system that intelligently manages and prioritizes notifications in collaborative work environments.",
-    link: "https://patents.google.com/patent/US10123456B2"
+    title: "System and method for dynamically upgrading/downgrading a conference session",
+    patentNumber: "WO 2007/126642 A3",
+    filingDate: "March 20, 2007",
+    status: "Published",
+    description: "Dynamic capability to upgrade or downgrade conference session characteristics based on participant devices and network conditions.",
+    link: "https://patents.google.com/patent/WO2007126642A3"
   },
   {
     id: 6,
-    title: "Adaptive Self-Generating AI Agents with Automatic External System Fulfillments",
-    patentNumber: "US 11,234,567 B1",
-    filingDate: "February 2022",
-    status: "Granted",
-    description: "Advanced AI agent system capable of self-generation and automatic integration with external systems for enhanced functionality.",
-    link: "https://patents.google.com/patent/US11234567B1"
+    title: "Floor control templates for use in push-to-talk applications",
+    patentNumber: "WO 2007/142718 A3",
+    filingDate: "March 20, 2007",
+    status: "Published",
+    description: "Configurable floor control templates for push-to-talk applications enabling flexible session management.",
+    link: "https://patents.google.com/patent/WO2007142718A3"
   },
   {
     id: 7,
-    title: "Human-Supervised AI Agents in a Distributed Swarm Intelligence Model",
-    patentNumber: "US 11,345,678 B1",
-    filingDate: "May 2022",
+    title: "Location based mixer priorities in conferences",
+    patentNumber: "US 9,172,796 B2",
+    filingDate: "March 14, 2007",
     status: "Granted",
-    description: "Distributed swarm intelligence framework with human-supervised AI agents for collaborative problem-solving and decision-making.",
-    link: "https://patents.google.com/patent/US11345678B1"
+    description: "Location-based prioritization of audio mixing in conferences to enhance participant experience based on endpoint proximity.",
+    link: "https://patents.google.com/patent/US9172796B2"
   },
   {
     id: 8,
-    title: "Resource Allocation Optimization in Cloud Conferencing",
-    patentNumber: "US 10,456,789 B2",
-    filingDate: "March 2019",
+    title: "Reconferencing capability for networked phones",
+    patentNumber: "US 9,094,520 B2",
+    filingDate: "January 8, 2007",
     status: "Granted",
-    description: "Optimized resource allocation system for cloud-based conferencing platforms ensuring efficient bandwidth and processing distribution.",
-    link: "https://patents.google.com/patent/US10456789B2"
+    description: "Capability for networked phones to re-establish conference calls after termination, enabling seamless reconferencing.",
+    link: "https://patents.google.com/patent/US9094520B2"
   },
   {
     id: 9,
-    title: "Accessibility Enhancement for Video Conferences",
-    patentNumber: "US 9,567,890 B2",
-    filingDate: "September 2017",
-    status: "Granted",
-    description: "Comprehensive accessibility features for video conferencing systems including real-time transcription and multi-language support.",
-    link: "https://patents.google.com/patent/US9567890B2"
+    title: "Checking whether a public safety answering point (PSAP) is correctly associated with an endpoint",
+    patentNumber: "WO 2008/130967 A3",
+    filingDate: "April 16, 2008",
+    status: "Published",
+    description: "Method for automatically verifying and updating PSAP association with endpoint location for emergency call routing.",
+    link: "https://patents.google.com/patent/WO2008130967A3"
   },
   {
     id: 10,
-    title: "Secure Voice Communication Protocol for Enterprise Networks",
-    patentNumber: "US 8,678,901 B2",
-    filingDate: "July 2014",
-    status: "Granted",
-    description: "Enhanced security protocol for voice communications across enterprise networks with encryption and authentication mechanisms.",
-    link: "https://patents.google.com/patent/US8678901B2"
+    title: "Location based dialing over wireless media",
+    patentNumber: "WO 2008/085661 A3",
+    filingDate: "December 14, 2007",
+    status: "Published",
+    description: "Location-based voice communication initiation that selects endpoints within predetermined proximity for dialing.",
+    link: "https://patents.google.com/patent/WO2008085661A3"
   },
   {
     id: 11,
-    title: "Dynamic Call Routing Based on Load and Quality Metrics",
-    patentNumber: "US 9,789,012 B2",
-    filingDate: "December 2017",
-    status: "Granted",
-    description: "Intelligent call routing system that dynamically adjusts based on network load and quality metrics for optimal user experience.",
-    link: "https://patents.google.com/patent/US9789012B2"
+    title: "Techniques for storing real-time voice messages in a caller's voicemail box",
+    patentNumber: "WO 2007/146043 A3",
+    filingDate: "June 6, 2007",
+    status: "Published",
+    description: "Automatic forking of voicemail messages to the caller's voicemail system when leaving a message on callee's system.",
+    link: "https://patents.google.com/patent/WO2007146043A3"
   },
   {
     id: 12,
-    title: "Real-time Collaboration Workspace Enhancement",
-    patentNumber: "US 10,890,123 B2",
-    filingDate: "June 2020",
-    status: "Granted",
-    description: "Advanced features for real-time collaboration workspaces including context-aware suggestions and automatic resource management.",
-    link: "https://patents.google.com/patent/US10890123B2"
+    title: "Integrating camp-on telephony feature with WLAN resource management and admission control",
+    patentNumber: "WO 2007/121158 A3",
+    filingDate: "April 10, 2007",
+    status: "Published",
+    description: "Integration of camp-on telephony with wireless network resource management, conditionally transmitting camp-on when resources are insufficient.",
+    link: "https://patents.google.com/patent/WO2007121158A3"
   },
   {
     id: 13,
-    title: "Virtual Conference Management System",
-    patentNumber: "US 9,876,543 B2",
-    filingDate: "January 2018",
+    title: "Facilitating real-time triggers in association with media streams",
+    patentNumber: "US 8,341,663 B2",
+    filingDate: "October 10, 2007",
     status: "Granted",
-    description: "Comprehensive virtual conference management platform with automated scheduling, participant management, and resource optimization.",
-    link: "https://patents.google.com/patent/US9876543B2"
+    description: "System for delivering real-time triggers in association with media streams according to configurable delivery rules.",
+    link: "https://patents.google.com/patent/US8341663B2"
   },
   {
     id: 14,
-    title: "AI-Powered Call Quality Assessment and Enhancement",
-    patentNumber: "US 11,456,789 B1",
-    filingDate: "July 2022",
+    title: "Method and apparatus for conference spanning",
+    patentNumber: "US 8,483,098 B2",
+    filingDate: "November 29, 2005",
     status: "Granted",
-    description: "Machine learning-based system for real-time call quality assessment and automatic enhancement of audio and video streams.",
-    link: "https://patents.google.com/patent/US11456789B1"
+    description: "Method for spanning multiple conferences by participating passively in some and actively in others using different media modes.",
+    link: "https://patents.google.com/patent/US8483098B2"
   },
   {
     id: 15,
-    title: "Distributed Conference Recording and Transcription",
-    patentNumber: "US 10,234,567 B2",
-    filingDate: "April 2020",
+    title: "Method and apparatus for inviting non-rich media endpoints to join a conference sidebar session",
+    patentNumber: "US 8,326,927 B2",
+    filingDate: "May 23, 2006",
     status: "Granted",
-    description: "Distributed system for recording and transcribing conference sessions with automated speaker identification and intelligent summarization.",
-    link: "https://patents.google.com/patent/US10234567B2"
+    description: "Enabling audio-only and other non-rich media endpoints to participate in conference sidebar sessions.",
+    link: "https://patents.google.com/patent/US8326927B2"
   },
   {
     id: 16,
-    title: "Network-Based Call Admission Control",
-    patentNumber: "US 8,234,567 B2",
-    filingDate: "October 2012",
-    status: "Granted",
-    description: "Intelligent call admission control system that dynamically manages network resources for optimal call quality and bandwidth utilization.",
-    link: "https://patents.google.com/patent/US8234567B2"
+    title: "Conference captioning",
+    patentNumber: "WO 2007/073423 A1",
+    filingDate: "September 6, 2006",
+    status: "Published",
+    description: "Advanced captioning system for real-time conference accessibility, converting speech to text for multimedia conferences.",
+    link: "https://patents.google.com/patent/WO2007073423A1"
   },
   {
     id: 17,
-    title: "Conference Experience Optimization Platform",
-    patentNumber: "US 11,567,890 B1",
-    filingDate: "September 2022",
+    title: "Randomized digit prompting for an interactive voice response system",
+    patentNumber: "US 8,345,851 B2",
+    filingDate: "May 31, 2006",
     status: "Granted",
-    description: "AI-driven platform for optimizing conference experiences through real-time feedback analysis and adaptive interface adjustments.",
-    link: "https://patents.google.com/patent/US11567890B1"
+    description: "IVR system with randomized digit prompting to improve security and user interaction in voice response flows.",
+    link: "https://patents.google.com/patent/US8345851B2"
   },
   {
     id: 18,
-    title: "Scalable Video Conference Bridge Architecture",
-    patentNumber: "US 9,345,678 B2",
-    filingDate: "March 2016",
+    title: "Telephony user interface to specify spatial audio direction and gain levels",
+    patentNumber: "US 8,411,598 B2",
+    filingDate: "October 24, 2006",
     status: "Granted",
-    description: "Highly scalable architecture for video conference bridges supporting large-scale multi-party conferences with efficient media handling.",
-    link: "https://patents.google.com/patent/US9345678B2"
-  },
-  {
-    id: 19,
-    title: "Intelligent Conference Room Resource Management",
-    patentNumber: "US 10,567,890 B2",
-    filingDate: "August 2020",
-    status: "Granted",
-    description: "Smart resource management system for physical and virtual conference rooms with automated scheduling and optimization capabilities.",
-    link: "https://patents.google.com/patent/US10567890B2"
-  },
-  {
-    id: 20,
-    title: "Multi-Protocol Call Control Gateway",
-    patentNumber: "US 8,456,789 B2",
-    filingDate: "June 2013",
-    status: "Granted",
-    description: "Universal gateway for seamless call control across multiple protocols including SIP, H.323, and proprietary systems.",
-    link: "https://patents.google.com/patent/US8456789B2"
-  },
-  {
-    id: 21,
-    title: "Collaborative Workspace Intelligence Engine",
-    patentNumber: "US 11,678,901 B1",
-    filingDate: "November 2022",
-    status: "Granted",
-    description: "Advanced intelligence engine for collaborative workspaces providing contextual insights, recommendations, and automated task management.",
-    link: "https://patents.google.com/patent/US11678901B1"
-  },
-  {
-    id: 22,
-    title: "Context-Aware Conference Automation System",
-    patentNumber: "US 11,789,012 B1",
-    filingDate: "December 2022",
-    status: "Granted",
-    description: "Intelligent automation system that adapts conference settings and configurations based on participant context and meeting objectives.",
-    link: "https://patents.google.com/patent/US11789012B1"
-  },
-  {
-    id: 23,
-    title: "Enhanced Media Routing for Multi-Point Conferences",
-    patentNumber: "US 9,123,456 B2",
-    filingDate: "January 2015",
-    status: "Granted",
-    description: "Optimized media routing architecture for multi-point video conferences with intelligent path selection and quality management.",
-    link: "https://patents.google.com/patent/US9123456B2"
-  },
-  {
-    id: 24,
-    title: "Dynamic Bandwidth Allocation for Video Conferencing",
-    patentNumber: "US 8,789,012 B2",
-    filingDate: "November 2014",
-    status: "Granted",
-    description: "Adaptive bandwidth allocation system that dynamically adjusts video quality based on network conditions and participant requirements.",
-    link: "https://patents.google.com/patent/US8789012B2"
-  },
-  {
-    id: 25,
-    title: "AI-Driven Collaboration Analytics Platform",
-    patentNumber: "US 11,890,123 B1",
-    filingDate: "January 2023",
-    status: "Granted",
-    description: "Comprehensive analytics platform powered by AI to provide insights into collaboration patterns, productivity metrics, and optimization opportunities.",
-    link: "https://patents.google.com/patent/US11890123B1"
+    description: "User interface for specifying spatial audio direction and gain levels in telephony and conference applications.",
+    link: "https://patents.google.com/patent/US8411598B2"
   }
 ];
 

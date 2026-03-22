@@ -46,7 +46,7 @@ const Patents: React.FC = () => {
       </div>
       
       <p className="patents-note">
-        <strong>Note:</strong> 3 additional patents pending with the USPTO in the areas of Contact Center AI and Generative AI.
+        <strong>Note:</strong> Additional patents pending with the USPTO in the areas of Contact Center AI and Generative AI.
       </p>
     </div>
   );

@@ -150,6 +150,12 @@
   border: 1px solid #ffc107;
 }
 
+.status-published {
+  background: rgba(156, 39, 176, 0.15);
+  color: #9c27b0;
+  border: 1px solid #9c27b0;
+}
+
 .patent-info {
   margin-bottom: 16px;
 }
