@@ -210,7 +210,8 @@ export const certifications: Certification[] = [
     name: "Generative AI with Large Language Models",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed 2023",
-    skills: ["Generative AI", "LLMs", "Transformers", "Prompt Engineering", "Fine-tuning"]
+    skills: ["Generative AI", "LLMs", "Transformers", "Prompt Engineering", "Fine-tuning"],
+    link: "/mywebsite/certificates/generative-ai-llms.pdf"
   },
   {
     id: 3,
