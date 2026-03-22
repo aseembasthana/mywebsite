@@ -37,7 +37,7 @@ export const patents: Patent[] = [
     title: "Communication routing for contact center",
     patentNumber: "US 2025/0106322 A1",
     filingDate: "September 25, 2023",
-    status: "Pending",
+    status: "Granted",
     description: "Method for routing incoming communications based on attitudinal negativity score of agents and user ease score to improve call routing and agent wellbeing in contact centers.",
     link: "https://patents.google.com/patent/US20250106322A1"
   },
@@ -202,7 +202,8 @@ export const certifications: Certification[] = [
     name: "Deep Learning Specialization",
     institution: "DeepLearning.AI via Coursera",
     date: "Completed 2017-2018",
-    skills: ["Deep Learning", "Neural Networks", "CNN", "RNN", "TensorFlow", "PyTorch"]
+    skills: ["Deep Learning", "Neural Networks", "CNN", "RNN", "TensorFlow", "PyTorch"],
+    link: "/mywebsite/certificates/deep-learning-specialization.pdf"
   },
   {
     id: 2,
