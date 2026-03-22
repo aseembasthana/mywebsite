@@ -218,7 +218,8 @@ export const certifications: Certification[] = [
     name: "Machine Learning Specialization",
     institution: "Stanford University via Coursera",
     date: "Completed 2016-2017",
-    skills: ["Machine Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"]
+    skills: ["Machine Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"],
+    link: "/mywebsite/certificates/machine-learning-specialization.pdf"
   },
   {
     id: 4,
