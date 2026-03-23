@@ -259,10 +259,11 @@ export const certifications: Certification[] = [
   },
   {
     id: 9,
-    name: "Finetuning Large Language Models",
-    institution: "DeepLearning.AI",
-    date: "Completed",
-    skills: ["LLM Finetuning", "LoRA", "QLoRA", "Parameter-Efficient Training", "Instruction Tuning"]
+    name: "Knowledge Graphs for RAG",
+    institution: "Neo4j via DeepLearning.AI",
+    date: "Completed August 2024",
+    skills: ["Embeddings", "GenAI Applications", "RAG", "Search and Retrieval", "Vector Databases"],
+    link: "https://learn.deeplearning.ai/accomplishments/8ceddbdc-596e-449d-ae3b-d29bd23bd062?usp=sharing"
   },
   {
     id: 10,
