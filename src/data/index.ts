@@ -293,6 +293,14 @@ export const certifications: Certification[] = [
     date: "Completed January 2025",
     skills: ["AI Frameworks", "AI in Software Development", "Agents", "GenAI Applications", "RAG", "Task Automation"],
     link: "https://learn.deeplearning.ai/accomplishments/37466862-d711-475c-908a-6f9bc04d15f9?usp=sharing"
+  },
+  {
+    id: 14,
+    name: "Open Source Models with Hugging Face",
+    institution: "Hugging Face via DeepLearning.AI",
+    date: "Completed December 2024",
+    skills: ["Chatbots", "Generative Models", "MultiModal", "NLP", "Prompt Engineering", "Transformers"],
+    link: "https://learn.deeplearning.ai/accomplishments/2c349f34-7cc1-4221-9f61-d00adc3239a2?usp=sharing"
   }
 ];
 
