@@ -246,10 +246,11 @@ export const certifications: Certification[] = [
   },
   {
     id: 7,
-    name: "Prompt Engineering and Advanced RAG",
-    institution: "DeepLearning.AI",
-    date: "Completed",
-    skills: ["Prompt Engineering", "Advanced RAG", "LangChain", "Vector Embeddings", "LangGraph"]
+    name: "ChatGPT Prompt Engineering for Developers",
+    institution: "OpenAI via DeepLearning.AI",
+    date: "Completed November 2023",
+    skills: ["Chatbots", "GenAI Applications", "Prompt Engineering"],
+    link: "https://learn.deeplearning.ai/accomplishments/adeba7ec-b355-4a57-8822-079308b1736e?usp=sharing"
   },
   {
     id: 8,
