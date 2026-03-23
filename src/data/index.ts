@@ -275,14 +275,24 @@ export const certifications: Certification[] = [
     name: "Evaluating AI Agents",
     institution: "Arize AI via DeepLearning.AI",
     date: "Completed January 2026",
-    skills: ["Agents", "Evaluation and Monitoring", "GenAI Applications", "LLMOps", "MLOps", "Prompt Engineering", "Task Automation"]
+    skills: ["Agents", "Evaluation and Monitoring", "GenAI Applications", "LLMOps", "MLOps", "Prompt Engineering", "Task Automation"],
+    link: "https://learn.deeplearning.ai/accomplishments/035987af-11f5-4c2d-be4e-ec747154230b?usp=sharing"
   },
   {
     id: 12,
     name: "MCP: Build Rich-Context AI Apps with Anthropic",
     institution: "Anthropic via DeepLearning.AI",
     date: "Completed October 2025",
-    skills: ["AI Coding", "AI Frameworks", "Agents", "Chatbots", "GenAI Applications", "LLMOps", "Prompt Engineering", "Task Automation"]
+    skills: ["AI Coding", "AI Frameworks", "Agents", "Chatbots", "GenAI Applications", "LLMOps", "Prompt Engineering", "Task Automation"],
+    link: "https://learn.deeplearning.ai/accomplishments/688850eb-eba3-4bb3-9c66-2a0e6748fc53?usp=sharing"
+  },
+  {
+    id: 13,
+    name: "Multi AI Agent Systems with crewAI",
+    institution: "crewAI via DeepLearning.AI",
+    date: "Completed January 2025",
+    skills: ["AI Frameworks", "AI in Software Development", "Agents", "GenAI Applications", "RAG", "Task Automation"],
+    link: "https://learn.deeplearning.ai/accomplishments/37466862-d711-475c-908a-6f9bc04d15f9?usp=sharing"
   }
 ];
 
