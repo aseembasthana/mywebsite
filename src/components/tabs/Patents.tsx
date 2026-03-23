@@ -10,6 +10,14 @@ const Patents: React.FC = () => {
         Patents
       </h2>
       
+      <div className="patent-stats-dashboard">
+        <img 
+          src={`${process.env.PUBLIC_URL || ''}/images/patent-stats-dashboard.png`} 
+          alt="Innovator Patent Stats - Portfolio overview as of March 2026" 
+          className="patent-stats-image"
+        />
+      </div>
+      
       <div className="patents-grid">
         {patents.map((patent) => (
           <div key={patent.id} className="patent-card">
