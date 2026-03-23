@@ -238,10 +238,11 @@ export const certifications: Certification[] = [
   },
   {
     id: 6,
-    name: "Building Generative AI-Powered Applications",
-    institution: "DeepLearning.AI via Coursera",
-    date: "Completed",
-    skills: ["Generative AI", "LLM Applications", "API Integration", "RAG", "Vector Databases"]
+    name: "Advanced Retrieval for AI with Chroma",
+    institution: "Chroma via DeepLearning.AI",
+    date: "Completed January 2024",
+    skills: ["Embeddings", "Fine-Tuning", "GenAI Applications", "RAG", "Search and Retrieval"],
+    link: "https://learn.deeplearning.ai/accomplishments/e69df028-559f-4b4c-a3d7-c68549f98046?usp=sharing"
   },
   {
     id: 7,
