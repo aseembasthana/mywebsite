@@ -230,10 +230,11 @@ export const certifications: Certification[] = [
   },
   {
     id: 5,
-    name: "Machine Learning With Big Data",
-    institution: "University of California San Diego via Coursera",
+    name: "Mining Massive Datasets",
+    institution: "Stanford University via Coursera",
     date: "Completed",
-    skills: ["Big Data", "Machine Learning", "Data Analytics", "Spark", "Hadoop"]
+    skills: ["MapReduce", "PageRank", "Recommender Systems", "Clustering", "Large-Scale Machine Learning", "Data Mining"],
+    link: "/mywebsite/certificates/mining-massive-datasets.pdf"
   },
   {
     id: 6,
