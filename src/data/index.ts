@@ -226,7 +226,8 @@ export const certifications: Certification[] = [
     name: "Artificial Intelligence Nanodegree",
     institution: "Udacity",
     date: "Completed 2017-2018",
-    skills: ["AI", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"]
+    skills: ["AI", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"],
+    link: "/mywebsite/certificates/udacity-ai-nanodegree.pdf"
   },
   {
     id: 5,
