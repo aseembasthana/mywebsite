@@ -350,28 +350,14 @@ export const awards: Award[] = [
     title: "ELCINA Recognition Letter",
     issuer: "ELCINA",
     description: "Letter of recognition.",
-    link: "/mywebsite/awards/elcina-letter-1.pdf"
+    link: "/mywebsite/awards/elcina-letter.pdf"
   },
   {
     id: 7,
     title: "ELCINA Award",
     issuer: "ELCINA",
     description: "Award certificate.",
-    link: "/mywebsite/awards/elcina-award-1.pdf"
-  },
-  {
-    id: 8,
-    title: "ELCINA Recognition Letter",
-    issuer: "ELCINA",
-    description: "Letter of recognition.",
-    link: "/mywebsite/awards/elcina-letter-2.pdf"
-  },
-  {
-    id: 9,
-    title: "ELCINA Award",
-    issuer: "ELCINA",
-    description: "Award certificate.",
-    link: "/mywebsite/awards/elcina-award-2.pdf"
+    link: "/mywebsite/awards/elcina-award.pdf"
   }
 ];
 
