@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
   return (
     <div className="projects-tab fade-in container">
       <h2 className="section-title">
-        <span className="section-number">06.</span>
+        <span className="section-number">07.</span>
         Some Things I've Built
       </h2>
       

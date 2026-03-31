@@ -48,4 +48,12 @@ export interface Publication {
   link?: string;
 }
 
-export type TabType = 'about' | 'experience' | 'patents' | 'certifications' | 'projects' | 'publications' | 'contact';
+export interface Award {
+  id: number;
+  title: string;
+  issuer?: string;
+  description?: string;
+  link: string;
+}
+
+export type TabType = 'about' | 'experience' | 'patents' | 'publications' | 'certifications' | 'awards' | 'projects' | 'contact';

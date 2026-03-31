@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
   return (
     <div className="contact-tab fade-in container">
       <h2 className="section-title">
-        <span className="section-number">07.</span>
+        <span className="section-number">08.</span>
         Get In Touch
       </h2>
       

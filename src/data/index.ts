@@ -1,4 +1,4 @@
-import { Experience, Patent, Certification, Project, Publication } from '../types';
+import { Experience, Patent, Certification, Project, Publication, Award } from '../types';
 
 export const experiences: Experience[] = [
   {
@@ -306,6 +306,72 @@ export const certifications: Certification[] = [
     date: "Completed December 2024",
     skills: ["Chatbots", "Generative Models", "MultiModal", "NLP", "Prompt Engineering", "Transformers"],
     link: "https://learn.deeplearning.ai/accomplishments/2c349f34-7cc1-4221-9f61-d00adc3239a2?usp=sharing"
+  }
+];
+
+export const awards: Award[] = [
+  {
+    id: 1,
+    title: "Chuck Robbins CEO Award",
+    issuer: "Cisco",
+    description: "Recognition from Cisco leadership.",
+    link: "/mywebsite/awards/chuck-robbins-ceo-award.pdf"
+  },
+  {
+    id: 2,
+    title: "Collab Hack",
+    issuer: "Cisco",
+    description: "Internal collaboration hackathon — 2019.",
+    link: "/mywebsite/awards/collab-hack-2019.pdf"
+  },
+  {
+    id: 3,
+    title: "Collab Hack",
+    issuer: "Cisco",
+    description: "Internal collaboration hackathon — 2020.",
+    link: "/mywebsite/awards/collab-hack-2020.pdf"
+  },
+  {
+    id: 4,
+    title: "Collab Hack",
+    issuer: "Cisco",
+    description: "Internal collaboration hackathon — 2022.",
+    link: "/mywebsite/awards/collab-hack-2022.pdf"
+  },
+  {
+    id: 5,
+    title: "Collab Hack",
+    issuer: "Cisco",
+    description: "Internal collaboration hackathon — 2026.",
+    link: "/mywebsite/awards/collab-hack-2026.pdf"
+  },
+  {
+    id: 6,
+    title: "ELCINA Recognition Letter",
+    issuer: "ELCINA",
+    description: "Letter of recognition.",
+    link: "/mywebsite/awards/elcina-letter-1.pdf"
+  },
+  {
+    id: 7,
+    title: "ELCINA Award",
+    issuer: "ELCINA",
+    description: "Award certificate.",
+    link: "/mywebsite/awards/elcina-award-1.pdf"
+  },
+  {
+    id: 8,
+    title: "ELCINA Recognition Letter",
+    issuer: "ELCINA",
+    description: "Letter of recognition.",
+    link: "/mywebsite/awards/elcina-letter-2.pdf"
+  },
+  {
+    id: 9,
+    title: "ELCINA Award",
+    issuer: "ELCINA",
+    description: "Award certificate.",
+    link: "/mywebsite/awards/elcina-award-2.pdf"
   }
 ];
 

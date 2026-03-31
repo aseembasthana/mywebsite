@@ -14,8 +14,9 @@ const Header: React.FC<HeaderProps> = ({ activeTab, onTabChange }) => {
     { id: 'patents', label: 'Patents', number: '03.' },
     { id: 'publications', label: 'Publications', number: '04.' },
     { id: 'certifications', label: 'Certifications', number: '05.' },
-    { id: 'projects', label: 'Projects', number: '06.' },
-    { id: 'contact', label: 'Contact', number: '07.' }
+    { id: 'awards', label: 'Awards', number: '06.' },
+    { id: 'projects', label: 'Projects', number: '07.' },
+    { id: 'contact', label: 'Contact', number: '08.' }
   ];
 
   return (

@@ -6,6 +6,7 @@ import Experience from './components/tabs/Experience';
 import Patents from './components/tabs/Patents';
 import Publications from './components/tabs/Publications';
 import Certifications from './components/tabs/Certifications';
+import Awards from './components/tabs/Awards';
 import Projects from './components/tabs/Projects';
 import Contact from './components/tabs/Contact';
 import './styles/main.css';
@@ -25,6 +26,8 @@ function App() {
         return <Publications />;
       case 'certifications':
         return <Certifications />;
+      case 'awards':
+        return <Awards />;
       case 'projects':
         return <Projects />;
       case 'contact':
