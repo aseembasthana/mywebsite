@@ -340,36 +340,31 @@ export const awards: Award[] = [
   },
   {
     id: 5,
-    title: "Webex Playtime Hackathon",
-    issuer: "Cisco Webex",
-    description: "2023 — Hackathon award.",
+    title: "Collab Hack",
+    issuer: "Cisco",
+    description: "Internal collaboration hackathon — 2023.",
     link: "/mywebsite/awards/webex-playtime-2023-award.jpeg",
-    image: "/mywebsite/awards/webex-playtime-2023-award.jpeg"
+    images: [
+      "/mywebsite/awards/webex-playtime-2023-award.jpeg",
+      "/mywebsite/awards/webex-playtime-2023-inclusivity.jpeg"
+    ]
   },
   {
     id: 6,
-    title: "Webex Playtime Hackathon — Inclusivity",
-    issuer: "Cisco Webex",
-    description: "2023 — Inclusivity recognition.",
-    link: "/mywebsite/awards/webex-playtime-2023-inclusivity.jpeg",
-    image: "/mywebsite/awards/webex-playtime-2023-inclusivity.jpeg"
-  },
-  {
-    id: 7,
     title: "Collab Hack",
     issuer: "Cisco",
     description: "Internal collaboration hackathon — 2026.",
     link: "/mywebsite/awards/collab-hack-2026.pdf"
   },
   {
-    id: 8,
+    id: 7,
     title: "ELCINA Recognition Letter",
     issuer: "ELCINA",
     description: "Letter of recognition.",
     link: "/mywebsite/awards/elcina-letter.pdf"
   },
   {
-    id: 9,
+    id: 8,
     title: "ELCINA Award",
     issuer: "ELCINA",
     description: "Award certificate.",

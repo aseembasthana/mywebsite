@@ -53,16 +53,59 @@
   margin: 0 0 16px;
 }
 
-.award-image {
+.award-expand {
+  margin: 0;
+}
+
+.award-expand-summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.award-expand-summary::marker {
+  content: none;
+}
+
+.award-expand-summary::-webkit-details-marker {
+  display: none;
+}
+
+.award-expand .award-images-row {
+  margin-top: 16px;
+}
+
+.award-images-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  align-items: flex-start;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.award-image-cell {
+  flex: 1 1 0;
+  min-width: 0;
   display: block;
-  max-width: 100%;
-  max-height: 280px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  line-height: 0;
   border-radius: 6px;
   border: 1px solid var(--border);
-  margin-bottom: 16px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.award-image-cell:hover {
+  border-color: var(--accent);
+}
+
+.award-image {
+  display: block;
+  width: 100%;
+  max-height: 280px;
+  height: auto;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 .award-link {
