@@ -54,6 +54,8 @@ export interface Award {
   issuer?: string;
   description?: string;
   link: string;
+  /** When set, a preview is shown above the link (e.g. JPEG certificates). */
+  image?: string;
 }
 
 export type TabType = 'about' | 'experience' | 'patents' | 'publications' | 'certifications' | 'awards' | 'projects' | 'contact';

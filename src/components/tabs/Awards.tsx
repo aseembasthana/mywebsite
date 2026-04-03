@@ -22,6 +22,14 @@ const Awards: React.FC = () => {
             {award.description && (
               <p className="award-description">{award.description}</p>
             )}
+            {award.image && (
+              <img
+                src={award.image}
+                alt={award.title}
+                className="award-image"
+                loading="lazy"
+              />
+            )}
             <a
               href={award.link}
               target="_blank"

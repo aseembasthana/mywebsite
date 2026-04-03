@@ -53,6 +53,18 @@
   margin: 0 0 16px;
 }
 
+.award-image {
+  display: block;
+  max-width: 100%;
+  max-height: 280px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
 .award-link {
   font-family: var(--font-mono);
   font-size: 14px;
